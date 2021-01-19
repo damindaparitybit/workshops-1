@@ -211,7 +211,7 @@ Verify that the Upstream for the beta application was created, using the followi
 ```bash
 until glooctl get upstream bookinfo-beta-productpage-9080 2> /dev/null
 do
-    echo waiting for upstream bookinfo-beta-productpage-9080 to be discovered
+    echo "waiting for upstream bookinfo-beta-productpage-9080 to be discovered"
     sleep 3
 done
 ```
