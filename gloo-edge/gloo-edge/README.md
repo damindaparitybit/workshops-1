@@ -115,7 +115,7 @@ To verify that the Upstream was created properly, run the following command:
 ```bash
 until glooctl get upstream bookinfo-productpage-9080 2> /dev/null
 do
-    echo waiting for upstream bookinfo-productpage-9080 to be discovered
+    echo "waiting for upstream bookinfo-productpage-9080 to be discovered"
     sleep 3
 done
 ```
